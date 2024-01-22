@@ -3,72 +3,86 @@ layout: article
 titles:
   # @start locale config
   en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+## Table of Contents
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+1. **Introduction to PostgreSQL and the Relational Database Model**
+   - Covering the basics of PostgreSQL and its implementation of the relational database model.
 
-## Features
+2. **SQL Essentials in PostgreSQL**
+   - Core SQL commands and queries, focusing on PostgreSQL's usage.
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+3. **Advanced SQL Techniques in PostgreSQL**
+   - Diving into complex SQL features like subqueries, window functions, and CTEs.
 
-## Skins
+4. **PostgreSQL Data Types and Structures**
+   - Exploring various data types including text, numeric, boolean, array, and JSON/JSONB.
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+5. **Database Design and Normalization with PostgreSQL**
+   - Principles of database design, focusing on normalization within PostgreSQL.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+6. **Indexing Strategies and Advanced Indexing Techniques in PostgreSQL**
+   - Discussing B-tree, Hash, GiST, BRIN indexes, and advanced indexing like partial and expression indexes.
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+7. **Understanding and Implementing ACID Principles in PostgreSQL**
+   - Explaining Atomicity, Consistency, Isolation, Durability in the context of PostgreSQL.
 
-### Highlight Theme
+8. **Performance Tuning and Query Optimization in PostgreSQL**
+   - Techniques for query optimization, including query planning and configuration tuning.
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+9. **Data Security and Encryption Practices in PostgreSQL**
+   - Covering PostgreSQL’s security features like access controls, data encryption, and security best practices.
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+10. **Backup, Disaster Recovery, and Database Maintenance in PostgreSQL**
+    - Strategies for backups, recovery, and regular database maintenance.
+
+11. **Views, Materialized Views, and Stored Procedures in PostgreSQL**
+    - Creating and using views, materialized views, and writing PL/pgSQL for advanced functions.
+
+12. **Triggers, Event Handling, and Autonomous Transactions in PostgreSQL**
+    - Implementing triggers and understanding autonomous transactions.
+
+13. **Replication, High Availability, and Data Redundancy in PostgreSQL**
+    - Discussing PostgreSQL replication and strategies for high availability.
+
+14. **NoSQL Features, JSON and XML Data Handling in PostgreSQL**
+    - Utilizing PostgreSQL’s NoSQL capabilities and handling JSON and XML data.
+
+15. **PostgreSQL Extensions, Plugins, and PostGIS for GIS Data Management**
+    - Leveraging extensions like PostGIS and others for specialized requirements.
+
+16. **Cloud-Based Solutions, Deployment in Hybrid Environments, and Containerization of PostgreSQL**
+    - Using PostgreSQL in cloud environments, hybrid setups, and containerization.
+
+17. **Partitioning, Sharding, and Large Dataset Management in PostgreSQL**
+    - Techniques for managing large datasets through partitioning and sharding.
+
+18. **Foreign Data Wrappers and Data Integration in PostgreSQL**
+    - Accessing external data sources and integration techniques.
+
+19. **Database Migration Strategies and Connection Pooling in PostgreSQL**
+    - Tools for data migration and efficient connection management.
+
+20. **Full-Text Search Capabilities and Advanced Text Querying in PostgreSQL**
+    - Exploring full-text search functionalities.
+
+21. **Machine Learning Integration, Data Replication, and Synchronization in PostgreSQL**
+    - Using PostgreSQL with machine learning tools and advanced data replication techniques.
+
+22. **Benchmarking, Performance Testing, and Query Optimization**
+    - Tools and methodologies for performance testing and advanced optimization.
+
+23. **Audit Logging, Compliance, and Monitoring Systems in PostgreSQL**
+    - Implementing audit logging, compliance strategies, and setting up monitoring systems.
+
+24. **Scaling PostgreSQL Horizontally and Vertically**
+    - Discussing strategies for scaling PostgreSQL databases.
+
+25. **Community Engagement, Resource Utilization, and CI/CD Pipelines for PostgreSQL**
+    - Leveraging the PostgreSQL community and implementing CI/CD pipelines.
+
+26. **Emerging Trends, New Features, and the Future of PostgreSQL**
+    - Keeping up with new trends and upcoming features in PostgreSQL.
